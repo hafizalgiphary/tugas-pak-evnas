@@ -1,0 +1,494 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("img/bg-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #544f41bd;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-title {
+  text-align: left;
+  margin-top: 3rem;
+  color: #f5f5f5;
+  font-style: italic;
+  font-size: 80px;
+}
+
+.booking {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f5f5f5;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 80px;
+}
+
+.zeus {
+  margin-left: 0rem;
+  width: 50rem;
+}
+
+.desk {
+  text-align: left;
+  color: #f5f5f5;
+  opacity: 75%;
+  font-size: 16px;
+}
+
+.btn-daftar {
+  margin-left: 00rem;
+  padding-top: 0.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.icon-push {
+  margin-top: 44rem;
+  margin-left: 18rem;
+}
+
+.btn-arrow {
+  margin-top: 14rem;
+}
+
+.title-studio {
+  font-weight: 700;
+  color: #f5f5f5;
+  font-size: 80px;
+  margin-bottom: 0rem;
+}
+
+.btn-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  transition: 0.6s;
+}
+
+.card-title-studio {
+  font-size: 32px;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #f65c5c;
+  font-family: "Roboto", sans-serif;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+.title-klien {
+  writing-mode: vertical-rl;
+}
+.kurt {
+  writing-mode: vertical-rl;
+  color: #f5f5f5;
+}
+
+.button {
+  transition: 0.6s;
+}
+.button:hover {
+  filter: grayscale();
+}
+
+.bg-about {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(157, 158, 165, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+}
+
+.title-tentang {
+  font-size: 54px;
+}
+
+.push-content {
+  margin-top: 22rem;
+}
+
+.text-tentang {
+  font-size: 16px;
+}
+
+.push {
+  margin-top: 11rem;
+}
+
+.push-kontak {
+  margin-top: 4.9rem;
+}
+
+.bg-mail {
+  background-color: #f65c5c;
+}
+
+.footer {
+  background-color: #202020a4;
+  color: #f5f5f5;
+  border-color: #f65c5c;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+  margin-top: 12.35rem;
+}
+
+.footer-text {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 320px) {
+  body {
+    background-image: url("img/bg-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .zeus {
+    width: 35rem;
+    margin-left: 0.5rem;
+  }
+  .booking {
+    font-size: 60px;
+  }
+  .hero-title {
+    text-align: center;
+    margin-top: 0rem;
+    font-size: 50px;
+  }
+
+  .desk {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .btn-daftar {
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+  }
+
+  .push-content {
+    margin-top: 7rem;
+  }
+
+  .title-studio {
+    font-size: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .card-title-studio {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .title-tentang {
+    font-size: 26px;
+  }
+
+  .text-tentang {
+    font-size: 16px;
+  }
+
+  iframe {
+    width: 340px;
+    height: 450px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("img/bg-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .zeus {
+    margin-left: 4.5rem;
+    width: 35rem;
+  }
+
+  .booking {
+    font-size: 70px;
+  }
+
+  .hero-title {
+    text-align: center;
+    margin-top: 0rem;
+    font-size: 70px;
+  }
+
+  .desk {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .btn-daftar {
+    margin-left: 10rem;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+  }
+
+  .push-content {
+    margin-top: 10rem;
+  }
+
+  .title-studio {
+    font-size: 55px;
+    margin-bottom: 0rem;
+  }
+
+  .card-title-studio {
+    font-size: 24px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .title-tentang {
+    font-size: 40px;
+  }
+
+  .text-tentang {
+    font-size: 16px;
+  }
+
+  .push {
+    margin-top: 12rem;
+  }
+
+  iframe {
+    width: 660px;
+    height: 450px;
+  }
+
+  .footer {
+    margin-top: 9.7rem;
+  }
+  .footer-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url("img/bg-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-title {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 60px;
+  }
+
+  .icon-push {
+    margin-top: 30rem;
+    margin-left: 8rem;
+  }
+
+  .btn-arrow {
+    margin-top: 8rem;
+  }
+
+  .title-studio {
+    margin-bottom: 0rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-size: 50px;
+  }
+
+  .booking {
+    font-size: 60px;
+  }
+
+  .zeus {
+    margin-left: 0rem;
+    width: 30rem;
+  }
+
+  .desk {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .btn-daftar {
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .card-title-studio {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .title-tentang {
+    font-size: 32px;
+  }
+
+  .text-tentang {
+    font-size: 14px;
+  }
+
+  .push-content {
+    margin-top: 5rem;
+  }
+
+  .push {
+    margin-top: 3rem;
+  }
+
+  iframe {
+    width: 510px;
+    height: 450px;
+  }
+
+  .push-kontak {
+    margin-top: 4.9rem;
+  }
+
+  .footer {
+    margin-top: 4.5rem;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url("img/bg-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-title {
+    text-align: left;
+    margin-top: 3rem;
+    font-size: 80px;
+  }
+
+  .icon-push {
+    margin-top: 44rem;
+    margin-left: 18rem;
+  }
+
+  .btn-arrow {
+    margin-top: 14rem;
+  }
+
+  .title-studio {
+    font-weight: 700;
+    color: #f5f5f5;
+    font-size: 80px;
+    margin-bottom: 0rem;
+  }
+
+  .booking {
+    font-size: 80px;
+  }
+
+  .zeus {
+    margin-left: 0rem;
+    width: 50rem;
+  }
+
+  .desk {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .btn-daftar {
+    margin-left: 0rem;
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .card-title-studio {
+    font-size: 32px;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+  .title-tentang {
+    font-size: 54px;
+  }
+
+  .push-content {
+    margin-top: 22rem;
+  }
+
+  .text-tentang {
+    font-size: 16px;
+  }
+
+  .push {
+    margin-top: 11rem;
+  }
+
+  iframe {
+    width: 605px;
+    height: 460px;
+  }
+
+  .push-kontak {
+    margin-top: 4.9rem;
+  }
+
+  .footer {
+    margin-top: 12.35rem;
+  }
+
+  .footer-text {
+    font-size: 24px;
+  }
+}
